@@ -1,39 +1,23 @@
-﻿<style>
+﻿<head>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css"/>
+</head>
 
-    .mainSearch
-    {
-        background-color: Black;
-        height:auto;
-        width:800px;
-        height:100%;
-        position:fixed;
-        left:50%;
-        margin-left: -400px;     
-        
+<div class="wrapper">
+    <div id="loginForm">
+       
+        <input id="loginForm" type="button" value="Sign in"     />
+      
+        <div id="txtLoginForm">
+            <input type="text" id="loginForm" value="password"  />
+        </div>
 
-    }
-    .content
-    {
-        
-        background-color: darkorange;
-        height:80%;
-        width:800px;
-        position:fixed;
-        margin-top:2%;
-    }
-    #loginButt
-    {
-        margin-right:5px;
-        margin-top:5px;
-        float:right;
-    }
-</style>
-
-<div class="mainSearch">
-    <input id="loginButt" type="button" value="Sign in"> 
-    <input type="text" id="loginButt" value="password"  />
-    <input type="text" id="loginButt" value="username" />
-    <div class="content">
+        <input type="text" id="loginForm" value="username"      />
 
     </div>
+    <div class="searchBar">
+        <input type="button" class="a-öButt" value="A-Ö"    />
+        <input type="text"   id="txtSearch" value="Text Här"  />
+        <input type="button" id="btnSearch" value="Sök"     />
+    </div>
 </div>
+
