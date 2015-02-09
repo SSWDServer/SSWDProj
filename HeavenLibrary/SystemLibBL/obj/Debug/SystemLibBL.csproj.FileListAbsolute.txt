@@ -1,0 +1,9 @@
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\bin\Debug\SystemLibBL.dll
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\bin\Debug\SystemLibBL.pdb
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\bin\Debug\SystemLibDAL.dll
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\bin\Debug\SystemLibDTO.dll
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\bin\Debug\SystemLibDAL.pdb
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\bin\Debug\SystemLibDTO.pdb
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\obj\Debug\SystemLibBL.csprojResolveAssemblyReference.cache
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\obj\Debug\SystemLibBL.dll
+C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibBL\obj\Debug\SystemLibBL.pdb
