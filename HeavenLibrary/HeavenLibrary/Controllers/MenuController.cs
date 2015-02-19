@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using SystemLibBL;
+using SystemLibDTO;
 
 namespace HeavenLibrary.Controllers
 {
@@ -30,6 +32,12 @@ namespace HeavenLibrary.Controllers
         public ActionResult Create()
         {
             return View();
+        }
+
+        public ActionResult testClick()
+        {
+            ViewBag.Result = SystemLibBL.Author.getAuthors();
+            return View("Index");
         }
 
         //

@@ -1,6 +1,7 @@
-﻿<head>
-    <link href="StyleSheet.css" rel="stylesheet" type="text/css"/>
-</head>
+﻿@*<head>
+    <link href="@Url.Content("~/Styles/StyleSheet.css")" rel="stylesheet" type="text/css" />
+    @RenderSection("Styles", false)
+</head>*@
 
 <div class="wrapper">
     <div id="loginForm">
@@ -19,5 +20,15 @@
         <input type="text"   id="txtSearch" value="Text Här"  />
         <input type="button" id="btnSearch" value="Sök"     />
     </div>
+    @using (Html.BeginForm("testClick", "Menu", FormMethod.Get)) 
+    {
+        <input type="submit" value="Testing" />
+    }
+    @if (ViewBag.Result != null)
+    {
+        @ViewBag.Result
+    }
+        
+    
 </div>
 

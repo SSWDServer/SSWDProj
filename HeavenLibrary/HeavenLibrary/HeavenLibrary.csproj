@@ -206,7 +206,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="StyleSheet.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -225,6 +227,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SystemLibBL\SystemLibBL.csproj">
+      <Project>{b2175d5b-353e-46aa-8ce9-05cf13a39cd3}</Project>
+      <Name>SystemLibBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemLibDTO\SystemLibDTO.csproj">
+      <Project>{9298bcb0-ced8-42a0-bf81-1df50a79ab43}</Project>
+      <Name>SystemLibDTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
