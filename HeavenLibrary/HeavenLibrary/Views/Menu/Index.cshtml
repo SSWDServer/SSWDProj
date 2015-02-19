@@ -20,13 +20,17 @@
             <input type="text" id="txtSearch" value="Text Här" />
             <input type="button" id="btnSearch" value="Sök" />
         </div>
+        @using SystemLibBL
         @using (Html.BeginForm("testClick", "Menu", FormMethod.Get))
         {
             <input type="submit" value="Testing" />
         }
         @if (ViewBag.Result != null)
         {
-            @ViewBag.Result
+            foreach (Author au in ViewBag.Result)
+            {
+                @Html.Label(au.FirstName)
+            }
         }
 
 

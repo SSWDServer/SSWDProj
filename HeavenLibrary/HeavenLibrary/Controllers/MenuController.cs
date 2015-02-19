@@ -36,7 +36,7 @@ namespace HeavenLibrary.Controllers
 
         public ActionResult testClick()
         {
-            ViewBag.Result = SystemLibBL.Author.getAuthors();
+            ViewBag.Result = SystemLibBL.Author.getAllAuthors();
             return View("Index");
         }
 
