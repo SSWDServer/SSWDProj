@@ -1,34 +1,33 @@
-﻿@*<head>
-    <link href="@Url.Content("~/Styles/StyleSheet.css")" rel="stylesheet" type="text/css" />
-    @RenderSection("Styles", false)
-</head>*@
-
-<div class="wrapper">
-    <div id="loginForm">
-       
-        <input id="loginForm" type="button" value="Sign in"     />
-      
-        <div id="txtLoginForm">
-            <input type="text" id="loginForm" value="password"  />
-        </div>
-
-        <input type="text" id="loginForm" value="username"      />
-
-    </div>
-    <div class="searchBar">
-        <input type="button" class="a-öButt" value="A-Ö"    />
-        <input type="text"   id="txtSearch" value="Text Här"  />
-        <input type="button" id="btnSearch" value="Sök"     />
-    </div>
-    @using (Html.BeginForm("testClick", "Menu", FormMethod.Get)) 
-    {
-        <input type="submit" value="Testing" />
-    }
-    @if (ViewBag.Result != null)
-    {
-        @ViewBag.Result
-    }
-        
+﻿<head title="hej">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
     
-</div>
+</head>
 
+    <div class="wrapper">
+        <div id="loginForm">
+
+            <input id="loginForm" type="button" value="Sign in" />
+
+            <div id="txtLoginForm">
+                <input type="text" id="loginForm" value="password" />
+            </div>
+
+            <input type="text" id="loginForm" value="username" />
+
+        </div>
+        <div class="searchBar">
+            <input type="button" class="a-öButt" value="A-Ö" />
+            <input type="text" id="txtSearch" value="Text Här" />
+            <input type="button" id="btnSearch" value="Sök" />
+        </div>
+        @using (Html.BeginForm("testClick", "Menu", FormMethod.Get))
+        {
+            <input type="submit" value="Testing" />
+        }
+        @if (ViewBag.Result != null)
+        {
+            @ViewBag.Result
+        }
+
+
+    </div>
