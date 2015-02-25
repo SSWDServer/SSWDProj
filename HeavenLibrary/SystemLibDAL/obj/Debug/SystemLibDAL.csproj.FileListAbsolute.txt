@@ -5,3 +5,10 @@ C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibDAL\bin\Debug\Sys
 C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibDAL\obj\Debug\SystemLibDAL.csprojResolveAssemblyReference.cache
 C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibDAL\obj\Debug\SystemLibDAL.dll
 C:\Users\laje1333\Desktop\mapp\SSWDProj\HeavenLibrary\SystemLibDAL\obj\Debug\SystemLibDAL.pdb
+C:\Users\laje1333\Desktop\SSWDProj\HeavenLibrary\SystemLibDAL\bin\Debug\SystemLibDAL.dll
+C:\Users\laje1333\Desktop\SSWDProj\HeavenLibrary\SystemLibDAL\bin\Debug\SystemLibDAL.pdb
+C:\Users\laje1333\Desktop\SSWDProj\HeavenLibrary\SystemLibDAL\bin\Debug\SystemLibDTO.dll
+C:\Users\laje1333\Desktop\SSWDProj\HeavenLibrary\SystemLibDAL\bin\Debug\SystemLibDTO.pdb
+C:\Users\laje1333\Desktop\SSWDProj\HeavenLibrary\SystemLibDAL\obj\Debug\SystemLibDAL.csprojResolveAssemblyReference.cache
+C:\Users\laje1333\Desktop\SSWDProj\HeavenLibrary\SystemLibDAL\obj\Debug\SystemLibDAL.dll
+C:\Users\laje1333\Desktop\SSWDProj\HeavenLibrary\SystemLibDAL\obj\Debug\SystemLibDAL.pdb

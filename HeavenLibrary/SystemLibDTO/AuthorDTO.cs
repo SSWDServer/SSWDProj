@@ -8,8 +8,8 @@ namespace SystemLibDTO
 {
     public class AuthorDTO
     {
-        public int _aId;
-        public string _firstName, _lastName, _birthYear;
+        public int _aId, _birthYear;
+        public string _firstName, _lastName ;
         
     }
 }
